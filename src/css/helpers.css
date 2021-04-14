@@ -3,3 +3,22 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.hide--elem {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.hide--elem:focus {
+	position: static;
+	width: auto;
+	height: auto;
+}
+
+img {
+	width: 100%;
+}
