@@ -1,0 +1,24 @@
+@-webkit-keyframes animateRight {
+	0% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(10px);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+@keyframes animateRight {
+	0% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(10px);
+		opacity: 0.5;
+	}
+	100% {
+		transform: translateX(0);
+	}
+}

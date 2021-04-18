@@ -1,3 +1,7 @@
+.container--fluid {
+	width: 100%;
+}
+
 .container {
 	width: 90%;
 	margin-left: auto;
@@ -21,4 +25,47 @@
 
 img {
 	width: 100%;
+}
+
+.form--wrapper {
+	width: 100%;
+	max-width: 17em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn--wrapper {
+	display: block;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+
+	margin-bottom: 2.5em;
+}
+
+.btn {
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	font-weight: 700;
+	border: 1px solid transparent;
+	text-decoration: none;
+	color: white;
+}
+
+.btn--primary {
+	background-color: var(--clr-accent-1);
+}
+
+.shadow-flat {
+	box-shadow: var(--shadow-flat);
+}
+.shadow-y {
+	box-shadow: var(--shadow-y);
+}
+
+.margin__bottom {
+	margin-bottom: var(--bottom-margin);
 }

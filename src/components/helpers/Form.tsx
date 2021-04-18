@@ -3,8 +3,6 @@ import * as React from 'react';
 import { UserInterface } from './interface';
 
 const Form = (props: UserInterface) => {
-	console.log(props);
-
 	const { fields, buttonClasses, buttonText } = props;
 
 	return (

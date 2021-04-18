@@ -2,30 +2,44 @@ import React from 'react';
 
 function Navigation() {
 	return (
-		<nav>
-			<ul>
+		<nav className="container">
+			<ul className="footer--navbar">
 				<li>
-					<a href="/">About Us</a>
+					<a href="/" className="footer__link">
+						About Us
+					</a>
 				</li>
 				<li>
-					<a href="/">Jobs</a>
+					<a href="/" className="footer__link">
+						Jobs
+					</a>
 				</li>
 				<li>
-					<a href="/">Press</a>
+					<a href="/" className="footer__link">
+						Press
+					</a>
 				</li>
 				<li>
-					<a href="/">Blog</a>
+					<a href="/" className="footer__link">
+						Blog
+					</a>
 				</li>
 			</ul>
-			<ul>
+			<ul className="footer--navbar">
 				<li>
-					<a href="/">Contact Us</a>
+					<a href="/" className="footer__link">
+						Contact Us
+					</a>
 				</li>
 				<li>
-					<a href="/">Terms</a>
+					<a href="/" className="footer__link">
+						Terms
+					</a>
 				</li>
 				<li>
-					<a href="/">Privacy</a>
+					<a href="/" className="footer__link">
+						Privacy
+					</a>
 				</li>
 			</ul>
 		</nav>

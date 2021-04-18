@@ -1,0 +1,20 @@
+.access {
+	background-color: var(--clr-primary-2);
+	color: white;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	text-align: center;
+}
+
+.access h2 {
+	margin: 0;
+}
+
+.access p {
+	margin-bottom: 2em;
+}
+
+.access__input {
+	margin-bottom: 0.8em;
+	width: 100%;
+}

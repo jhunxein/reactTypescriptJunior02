@@ -9,7 +9,7 @@ export default class Main extends Component {
 		return (
 			<main>
 				<article>
-					<h2 className="hide-elem">Main Article</h2>
+					<h1 className="hide--elem">Main Article</h1>
 					<Hero />
 					<StayProductive />
 					<EarlyAccess />
