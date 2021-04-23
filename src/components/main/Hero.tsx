@@ -19,7 +19,7 @@ function Hero() {
 					{...{
 						labelTxt: 'Email Address',
 						inputType: 'email',
-						inputNameID: 'email',
+						inputNameID: 'emailHero',
 						inputPlaceholder: 'Enter your email..',
 						inputClasses: 'shadow-flat hero__email',
 						btnTxt: 'Get Started',

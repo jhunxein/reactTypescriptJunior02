@@ -18,20 +18,21 @@ function Header() {
 				className="burger--menu"
 				aria-expanded="false"
 				aria-controls="menuItems"
+				aria-label="navigation menu"
 				onClick={toggleMenu}
 			>
-				<div
+				<span
 					id="line1"
 					className={`${
 						isMenuOpen ? 'burger__lines burger__active' : 'burger__lines'
 					}`}
-				></div>
-				<div
+				></span>
+				<span
 					id="line2"
 					className={`${
 						isMenuOpen ? 'burger__lines burger__active' : 'burger__lines'
 					}`}
-				></div>
+				></span>
 			</button>
 		</header>
 	);

@@ -8,8 +8,6 @@ function Navigation(props: {
 }) {
 	const [windowSize, setWindowSize] = React.useState(0);
 
-	const refNavbarContainer = React.useRef(null);
-
 	const handleResizeWindow = React.useCallback(() => {
 		const width = window.innerWidth;
 		if (width > 769) {
@@ -29,13 +27,12 @@ function Navigation(props: {
 	return (
 		<nav className="nav">
 			<a href="/" title="logo" className="nav--logo" tabIndex={1}>
-				<img src={logo} alt="" className="nav__img" />
+				<img src={logo} alt="fylo logo" className="nav__img" />
 			</a>
 
 			<ul
 				id="menuItems"
 				className={`${props.isMenuOpen ? 'navbar navbar__show' : 'navbar'}`}
-				ref={refNavbarContainer}
 			>
 				<li className="nav--tab">
 					<a

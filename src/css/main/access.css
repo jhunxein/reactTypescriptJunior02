@@ -70,5 +70,12 @@
 	.access__email,
 	.btn__access {
 		font-size: 0.8em;
+		padding-top: 1.2em;
+		padding-bottom: 1.2em;
+	}
+	.btn__access {
+		width: auto !important;
+		padding-left: 4em;
+		padding-right: 4em;
 	}
 }

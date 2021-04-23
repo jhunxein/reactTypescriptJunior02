@@ -60,14 +60,13 @@ function FormEmail(props: FormEmailInterface) {
 						}`}
 						value={emailField}
 						onChange={handleChange}
-						max="100"
 					/>
 					{isEmailError && <FaExclamationCircle className="error--icon__inline" />}
 				</div>
 				<p
 					className={`${isEmailError ? 'text__error show__error' : 'text__error'}`}
 				>
-					Please input a valid {inputNameID}.
+					Please input a valid email.
 				</p>
 			</div>
 

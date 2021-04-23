@@ -19,7 +19,7 @@ function EarlyAccess() {
 					{...{
 						labelTxt: 'Email Address',
 						inputType: 'email',
-						inputNameID: 'email',
+						inputNameID: 'emailAccess',
 						inputPlaceholder: 'example@gmail.com',
 						inputClasses: 'shadow-flat access__email',
 						btnTxt: 'Get Started for Free',
