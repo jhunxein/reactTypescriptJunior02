@@ -12,7 +12,7 @@ function Header() {
 
 	return (
 		<header className="container header">
-			<Navigation isMenuOpen={isMenuOpen} />
+			<Navigation isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
 			<button
 				type="button"
 				className="burger--menu"

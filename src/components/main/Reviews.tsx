@@ -6,7 +6,7 @@ import user from './../../assets/images/avatar-testimonial.jpg';
 
 const Reviews = () => {
 	return (
-		<blockquote className="margin__bottom quote">
+		<blockquote className="margin__bottom shadow-flat quote">
 			<img src={quote} alt="" className="quote__img" aria-hidden />
 			<p>
 				Fylo has improved our team productivity by an order of magnitude. Since

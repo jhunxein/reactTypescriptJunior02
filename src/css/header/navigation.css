@@ -11,6 +11,7 @@
 
 .nav__img {
 	width: 116px;
+	transition: var(--transition);
 }
 
 .navbar {
@@ -22,13 +23,13 @@
 	display: flex;
 	justify-content: space-evenly;
 	flex-direction: column;
-	align-items: center;
+	align-items: left;
 
 	position: absolute;
 	top: 0;
 	left: 0;
 	margin: 0;
-	padding: 0;
+	padding: 0 1em;
 
 	background-color: var(--clr-neutral-1);
 	box-shadow: var(--shadow-flat);
@@ -42,6 +43,7 @@
 
 .nav--tab {
 	margin: 1em 0;
+	border-bottom: 1px solid var(--clr-primary-2);
 }
 
 .nav--tab:nth-child(2) {
@@ -50,13 +52,60 @@
 
 .navbar__show {
 	height: auto;
-	top: 3em;
+	top: 4em;
 	opacity: 1;
 	pointer-events: all;
 }
 
 .nav__link {
 	font-size: 14px;
-	font-weight: bold;
 	text-decoration: none;
+	display: block;
+	transition: var(--transition);
+}
+
+.nav__link:hover {
+	color: var(--clr-primary-1-hover);
+}
+
+@media only screen and (min-width: 769px) {
+	.navbar {
+		width: 50%;
+		max-width: 20em;
+
+		opacity: 1;
+
+		overflow: hidden;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0.5em;
+		margin: 0;
+		flex-direction: row;
+
+		position: static;
+
+		background-color: transparent;
+		box-shadow: none;
+
+		transition: var(--transition);
+
+		list-style-type: none;
+
+		pointer-events: all;
+	}
+
+	.nav--tab {
+		margin: 0 !important;
+		border: none;
+	}
+	.nav__link {
+		padding: 0.5em;
+		font-size: 1em;
+	}
+
+	.nav__img {
+		width: 168px;
+	}
 }

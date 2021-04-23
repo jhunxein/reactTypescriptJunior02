@@ -36,3 +36,9 @@
 .burger__active#line2 {
 	transform: translateY(-7px) rotateZ(-40deg);
 }
+
+@media only screen and (min-width: 769px) {
+	.burger--menu {
+		display: none;
+	}
+}

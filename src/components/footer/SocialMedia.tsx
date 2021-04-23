@@ -2,7 +2,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 function SocialMedia() {
 	return (
-		<div className="container ">
+		<div>
 			<div className="social--icons">
 				<a href="https://www.facebook.com" title="Visit our facebook page">
 					<FaFacebookF className="social__white" />

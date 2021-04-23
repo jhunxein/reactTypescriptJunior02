@@ -1,12 +1,16 @@
 .quote {
 	padding: 1.2em 1.5em;
 	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	width: 100%;
 	max-width: 405px;
 	text-align: left;
 	font-size: 12px;
 	font-weight: bold;
 	background-color: white;
+	border-radius: 0.5em;
+	margin-bottom: 8em;
 }
 
 .quote--wrapper {
@@ -42,4 +46,15 @@
 	display: block;
 	font-weight: bolder;
 	font-size: 12px;
+}
+
+@media only screen and (min-width: 1025px) {
+	.quote {
+		margin: 0;
+	}
+
+	/* Responsible for padding right in the first child of the every container */
+	.container > *:nth-child(1) {
+		padding-right: 2em;
+	}
 }

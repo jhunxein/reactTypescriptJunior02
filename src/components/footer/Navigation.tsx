@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navigation() {
 	return (
-		<nav className="container">
+		<nav className="nav--wrapper">
 			<ul className="footer--navbar">
 				<li>
 					<a href="/" className="footer__link">

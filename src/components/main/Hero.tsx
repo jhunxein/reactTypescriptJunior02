@@ -1,9 +1,8 @@
-import React from 'react';
-
-import Form from './../helpers/Form';
 import img from './../../assets/images/illustration-1.svg';
 
 import './../../css/main/hero.css';
+
+import FormEmail from './../FormEmail';
 
 function Hero() {
 	return (
@@ -16,19 +15,16 @@ function Hero() {
 					co-workers.
 				</p>
 
-				<Form
-					fields={[
-						{
-							label: 'Email Address',
-							inputType: 'email',
-							inputName: 'email',
-							inputID: 'email',
-							inputPlaceholder: 'Enter your email..',
-							inputClasses: 'shadow-flat hero__email',
-						},
-					]}
-					buttonText="Get Started"
-					buttonClasses="btn btn--primary shadow-y btn__hero"
+				<FormEmail
+					{...{
+						labelTxt: 'Email Address',
+						inputType: 'email',
+						inputNameID: 'email',
+						inputPlaceholder: 'Enter your email..',
+						inputClasses: 'shadow-flat hero__email',
+						btnTxt: 'Get Started',
+						btnClasses: 'btn btn--primary shadow-y btn__hero',
+					}}
 				/>
 			</div>
 			<div className="hero--illustration">

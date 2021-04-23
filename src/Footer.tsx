@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 import Address from './components/footer/Address';
 import Navigation from './components/footer/Navigation';
@@ -16,9 +16,11 @@ function Footer() {
 					<Logo className="footer__img" />
 				</a>
 			</div>
-			<Address />
-			<Navigation />
-			<SocialMedia />
+			<div className="container footer--wrapper">
+				<Address />
+				<Navigation />
+				<SocialMedia />
+			</div>
 		</footer>
 	);
 }
